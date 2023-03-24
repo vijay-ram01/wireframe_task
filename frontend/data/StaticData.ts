@@ -3,7 +3,7 @@ let StaticData = {
         {
             id: 1,
             logo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/J.League.svg",
-            status: "missed",
+            status: "Missed",
             action: "Create code of conduct document for stakeholders",
             standard: "7.1.2",
             dueDate: "23.01.20",
@@ -51,7 +51,7 @@ let StaticData = {
         {
             id: 5,
             logo: "https://upload.wikimedia.org/wikipedia/commons/e/e5/J.League.svg",
-            status: "missed",
+            status: "Missed",
             action: "Create code of conduct document for stakeholders",
             standard: "7.1.2",
             dueDate: "23.01.20",
