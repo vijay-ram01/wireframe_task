@@ -1,8 +1,5 @@
 import { lazy } from 'react';
 import { createBrowserRouter, IndexRouteObject, NonIndexRouteObject, useMatches } from 'react-router-dom';
-// import { TodoView } from './views/TodoView';
-// import { HeaderView } from './views/HeaderView';
-// import { Example } from './components/Tabs/Tabs';
 import { Dashboard } from './views/Dashboard';
 
 export type MenuProps = Readonly<{

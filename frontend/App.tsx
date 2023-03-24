@@ -22,15 +22,21 @@ declare global {
 }
 
 interface VaadinButtonProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
+  theme: String
 }
 
 interface VaadinIconProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
+  icon: String;
 }
 
 interface VaadinGridProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
+  theme: String;
 }
 
 interface VaadinGridColumnProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
+  path: String;
+  header: String;
+  width: String;
 }
 
 interface VaadinGridSortColumnProps extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
@@ -46,12 +52,15 @@ interface vaadinAccordion extends React.DetailedHTMLProps<React.HTMLAttributes<H
 }
 
 interface vaadinAccordionPanel extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
+  summary: String;
 }
 
 interface vaadinVerticalLayout extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
 }
 
 interface vaadinTextField extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {
+  label: String;
+  value: String;
 }
 
 interface vaadinAvatar extends React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> {

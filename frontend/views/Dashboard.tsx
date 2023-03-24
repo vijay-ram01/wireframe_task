@@ -74,12 +74,12 @@ export function Dashboard () {
 
                 <div className="searchFilterContainer">
                     <div className="searchBarContainer">
-                        <vaadin-text-field aria-label="search" placeholder="Search" clear-button-visible>
+                        <vaadin-text-field value="" label="" aria-label="search" placeholder="Search" clear-button-visible>
                             <vaadin-icon icon="vaadin:search" slot="prefix"></vaadin-icon>
                         </vaadin-text-field>
                     </div>
                     <div className="filterContainer">
-                        <vaadin-text-field aria-label="search" placeholder="Filters" clear-button-visible>
+                        <vaadin-text-field value="" label="" aria-label="filter" placeholder="Filters" clear-button-visible>
                             <vaadin-icon icon="vaadin:filter" slot="prefix"></vaadin-icon>
                         </vaadin-text-field>
                         {/* <select id="selectElement">
@@ -146,7 +146,7 @@ export function Dashboard () {
                         </div>
 
                         <div className="mainContentFooter">
-                            <vaadin-button className="cancelButton" style={{marginTop: '14px'}}>Cancel</vaadin-button>
+                            <vaadin-button className="cancelButton" style={{marginTop: '14px'}} theme="">Cancel</vaadin-button>
                             <div>
                                 <vaadin-text-field style={{marginRight: '20px', paddingTop: '0px'}} label="Status" value="Ready for Review" readonly></vaadin-text-field>
                                 <vaadin-button theme="primary" className="saveButton" onClick={() => setDone(true)}>Save</vaadin-button>
