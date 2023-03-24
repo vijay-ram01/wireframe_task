@@ -1,0 +1,243 @@
+/* .mainContent {;
+} */
+
+body {
+    font-size: 14px;
+}
+
+#idGrid {
+    border: none;
+    height: 90vh;
+    font-size: 12px;
+    overflow-y: hidden !important;
+    margin-right: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(120deg, #000000cd 80% , rgb(255, 72, 0) 20%);
+    color: #fff;
+}
+.headerFirst {
+    display: flex;
+}
+.headerFirst vaadin-icon, .headerLast vaadin-icon {
+    width: 20px;
+    margin: auto 8px;
+    color: #fff;
+}
+.headerFirst vaadin-avatar, .headerLast vaadin-avatar {
+    margin: auto 0;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color:aliceblue;
+}
+.headerMid {
+    display: flex;
+}
+.headerMid img {
+    width: 20px;
+    margin-right: 10px;
+}
+.headerMid span {
+    margin: auto 0;
+}
+.headerLast {
+    display: flex;
+}
+.headerLast span {
+    margin: auto 6px;
+    font-size: 12px;
+}
+.headerLast vaadin-icon {
+    width: 18px;
+}
+
+.contentWrapper {
+    padding: 16px 42px;
+}
+vaadin-tab {
+    font-size: 14.5px;
+}
+
+.searchFilterContainer {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.searchBarContainer {
+    width: 30%;
+    margin-right: 10px;
+}
+.searchBarContainer vaadin-text-field, .filterContainer vaadin-text-field {
+    width: 100%;
+}
+.filterContainer  {
+    width: 70%;
+}
+.mainContainer {
+    display: flex;
+}
+.idRow {
+    background-color: #cccccc50;
+    width: 3%;
+    height: 90vh;
+    border-radius: 4px;
+    margin-right: 30px;
+}
+.mainContent {
+    width: 95%;
+}
+.mainContentHeader {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 20px);
+    float: right;
+    background-color: #cccccc50;
+    padding: 20px 10px;
+    border-radius: 4px;
+}
+.mainContentHeader h4 {
+    margin: auto 0;
+}
+.reportStatus {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+.actionContainer {
+    width: 100%;
+}
+.actionHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.toggleButton {
+    display: flex;
+}
+.toggle {
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.actionGrid {
+    font-size: 12px;
+}
+.mainContentFooter {
+    display: flex;
+    width: calc(100% - 20px);
+    justify-content: space-between;
+    background-color: #cccccc50;
+    padding: 20px 10px;
+    /* padding-top: 0px; */
+    border-radius: 4px;
+}
+
+.jleContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.leftContent {
+    width: calc(27% - 14px);
+    padding: 14px;
+}
+.rightContent {
+    width: 67%;
+}
+.rcHeader {
+    display: flex;
+    justify-content: space-between;
+}
+.textArea {
+    resize: none;
+    overflow-y: scroll;
+    width: calc(99% - 28px);
+    height: 320px;
+    border: 2px solid #cccccc50;
+    border-radius: 4px;
+    padding: 14px;
+    font-size: 16px;
+}
+.leftContent {
+    background-color: #cccccc50;
+    overflow-y: scroll;
+    height: 400px;
+    border-radius: 6px;
+}
+.secHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.statusBar {
+    display: flex;
+}
+.indicators {
+    display: flex;
+    margin-left: auto;
+}
+.colorIndicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    margin-right: 12px;
+    margin-top: 6px;
+    border: 1px solid black;
+}
+
+.red {
+    background-color: rgba(251, 6, 6, 0.851);
+}
+.white {
+    background-color: #fff;
+}
+.mustard {
+    background-color: rgb(180, 157, 5);
+}
+
+.sortBox {
+    display: flex;
+}
+.commentBox {
+    display: flex;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 4px;
+    min-height: 32px;
+    max-height: 184px;
+    margin: 12px 0;
+    font-size: 14px;
+    overflow-x: hidden;
+    position: relative;
+}
+.commentBox vaadin-icon:hover {
+    color: #00000053;
+}
+.commentTxt {
+    cursor: pointer;
+    overflow-y: auto;
+}
+.copyIcon {
+    position: absolute !important;
+    right: 0;
+    bottom: 0;
+    margin: 12px;
+}
+
+.postedDate {
+    margin-top: 8px;
+    margin-right: 6px;
+    font-size: 12px;
+}
+.accordianContainer {
+    position: relative;
+}
+.jleStatus {
+    position: absolute;
+    left: 120px;
+    top: 0px;
+}
+
